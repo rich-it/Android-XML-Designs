@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingBottom="4dp"
+        android:background="#28c7ba">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_xbox_controller_menu_grey600_24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:paddingRight="4dp"
+            android:layout_height="wrap_content"
+            android:text="title" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:gravity="end"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_magnify_grey600_24dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_xbox_controller_menu_grey600_24dp" />
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="24dp"
+        android:background="#28c7ba"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:src="@drawable/ic_xbox_controller_menu_grey600_24dp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:text="Search hint"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:layout_gravity="center"
+        android:gravity="end"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:src="@drawable/ic_heart_black_24dp"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:src="@drawable/ic_dots_horizontal_grey600_24dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
