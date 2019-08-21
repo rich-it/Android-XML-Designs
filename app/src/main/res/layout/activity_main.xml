@@ -12,17 +12,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="YO YO"
+            android:text=" "
             android:id="@+id/text"
-            android:layout_margin="16dp"
-            android:layout_gravity="center"
-            android:textSize="40sp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="HONEY HONEY "
-            android:id="@+id/text2"
             android:textSize="40sp"
             android:layout_gravity="center"/>
         <Button
@@ -30,11 +21,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/button"
             android:text="click me"/>
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/button2"
-            android:text="click me"/>
+
 
 
     </LinearLayout>
