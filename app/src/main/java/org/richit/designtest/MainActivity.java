@@ -7,12 +7,26 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import java.util.Random;
-
 public class MainActivity extends AppCompatActivity {
 
     TextView textView ;
     Button buttonClick;
+
+    String arr[] = {
+      "12",
+      "hip",
+      "hop",
+      "yo" ,
+      "nice",
+      "happy",
+      "top",
+      "keep",
+      "dream",
+      "loop",
+    };
+
+
+    int counter =0;
 
 
     @Override
@@ -24,21 +38,13 @@ public class MainActivity extends AppCompatActivity {
         buttonClick.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                textView.setText(generateString(6));
+                if (counter == arr.length-1)
+                    counter = 0;
+
+                textView.setText(arr[counter++]);
 
             }
         });
     }
-    private String generateString (int length){
-        char[] chars ="ABCDEFGHIJKLMNOPQRST123456789".toCharArray();
-        StringBuilder stringBuilder = new StringBuilder();
-        Random random = new Random();
-        for(int i = 0;i < length; i++){
-            char c = chars[random.nextInt(chars.length)];
-            stringBuilder.append(c);
-        }
-        return stringBuilder.toString();
-    }
-
 
 }
