@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity {
 
     TextView textViewPerson;
     Button button;
+    String nameArray [] = {"Shuvo, Masrur, Fayaz, Plabon"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +22,9 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                textViewPerson.setText("hahahaha");
+                if (i=nameArray.length-1)
+                    i=0;
+                textViewPerson.setText(nameArray[i++]);
             }
         });
 
