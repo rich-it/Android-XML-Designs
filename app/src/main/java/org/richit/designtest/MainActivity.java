@@ -9,23 +9,28 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-    TextView textViewPerson;
+    TextView textViewPerson, textviewdmbnfvb;
     Button button;
-    String nameArray[] = {"Shuvo, Masrur, Fayaz, Plabon"};
+    int colorArray[] = {
+            R.color.salmon,
+            R.color.deeppink,
+            R.color.indigo,
+            R.color.yellow
+    };
+    int i=0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        textViewPerson = findViewById(R.id.personviewtv);
-        int i;
+        textViewPerson = findViewById(R.id.colorviewtv);
         button = findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (i = nameArray.length - 1)
+                if ( i == colorArray.length-1)
                     i = 0;
-                textViewPerson.setText(nameArray[i++]);
+                textViewPerson.setBackgroundColor(getResources().getColor(colorArray[i++]));
             }
         });
 
