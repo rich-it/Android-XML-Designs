@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2196F3"
+        android:paddingTop="16dp"
+        android:paddingBottom="24dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_menu_white_36dp"
+            android:id="@+id/image1"
+            android:paddingTop="16dp"/>
+
+      
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/linear1"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/image2"
+                android:src="@drawable/ic_magnify_white_36dp"
+                android:layout_margin="16dp"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_dots_vertical_white_36dp"
+                android:layout_toRightOf="@id/image2"
+                android:id="@+id/image3"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2196F3"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My files"
+            android:textColor="#FFF"
+            android:layout_marginLeft="64dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:textSize="24sp"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Folders"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginBottom="16dp"
+        android:textSize="16sp"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:paddingBottom="24dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_folder_grey600_48dp"
+            android:id="@+id/image4"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/image4"
+            android:layout_marginLeft="16dp"
+            android:orientation="vertical"
+            android:id="@+id/linear2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Photos"
+                android:textSize="24sp"
+                android:layout_marginLeft="16dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jan 9,2018"
+                android:textSize="14sp"
+                android:layout_toRightOf="@id/image4"
+                android:layout_marginLeft="16dp"
+                />
+
+        </LinearLayout>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_information_grey600_36dp"
+            android:layout_alignParentRight="true"
+            android:id="@+id/image5"
+            android:layout_margin="10dp"
+            />
+
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>
