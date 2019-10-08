@@ -91,7 +91,7 @@
                 android:layout_marginLeft="15dp"
                 android:layout_toEndOf="@id/im3"
                 android:layout_toRightOf="@id/im3"
-                android:text="Title"
+                android:hint="Search Hint"
                 android:textColor="#212121"
                 android:textSize="16sp" />
 
