@@ -8,6 +8,8 @@
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:background="#26C6DA"
+        android:clipToPadding="true"
+        android:elevation="16dp"
         android:orientation="vertical">
 
         <RelativeLayout
