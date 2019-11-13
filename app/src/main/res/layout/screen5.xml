@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="#009688">
+            <ImageView
+                android:id="@+id/menu"
+                android:src="@drawable/ic_menu_white_36dp"
+                android:layout_margin="16dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+            <TextView
+                android:text="Topics"
+                android:textSize="28sp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:layout_toRightOf="@+id/menu"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <ImageView
+                android:id="@+id/dots"
+                android:src="@drawable/ic_dots_vertical_white_36dp"
+                android:layout_alignParentRight="true"
+                android:layout_margin="16dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:src="@drawable/ic_folder_grey600_36dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="16dp"/>
+            <TextView
+                android:text="Attractions"
+                android:layout_gravity="center"
+                android:textSize="24dp"
+                android:layout_margin="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:src="@drawable/ic_silverware_grey600_48dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="16dp"/>
+            <TextView
+                android:text="Dining"
+                android:layout_gravity="center"
+                android:textSize="24dp"
+                android:layout_margin="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:src="@drawable/ic_school_grey600_48dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="16dp"/>
+            <TextView
+                android:text="Education"
+                android:layout_gravity="center"
+                android:textSize="24dp"
+                android:layout_margin="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:src="@drawable/ic_account_multiple_grey600_48dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="16dp"/>
+            <TextView
+                android:text="Family"
+                android:layout_gravity="center"
+                android:textSize="24dp"
+                android:layout_margin="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:src="@drawable/ic_heart_grey600_48dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="16dp"/>
+            <TextView
+                android:text="Health"
+                android:layout_gravity="center"
+                android:textSize="24dp"
+                android:layout_margin="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:src="@drawable/ic_domain_grey600_48dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="16dp"/>
+            <TextView
+                android:text="Office"
+                android:layout_gravity="center"
+                android:textSize="24dp"
+                android:layout_margin="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:src="@drawable/ic_cart_outline_grey600_48dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="16dp"/>
+            <TextView
+                android:text="Promotions"
+                android:layout_gravity="center"
+                android:textSize="24dp"
+                android:layout_margin="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:src="@drawable/ic_radio_grey600_48dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="16dp"/>
+            <TextView
+                android:text="Radio"
+                android:layout_gravity="center"
+                android:textSize="24dp"
+                android:layout_margin="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:src="@drawable/ic_book_grey600_48dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="16dp"/>
+            <TextView
+                android:text="Recipies"
+                android:layout_gravity="center"
+                android:textSize="24dp"
+                android:layout_margin="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</LinearLayout>
