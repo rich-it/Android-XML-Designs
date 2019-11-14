@@ -75,216 +75,289 @@
                     android:padding="20dp"
                     android:text="Folder" />
             </LinearLayout>
-
             <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <ImageView
-                    android:id="@+id/folder"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginRight="16dp"
-                    android:background="@drawable/circle"
-                    android:padding="10dp"
-                    android:src="@drawable/ic_folder_white_36dp" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
-                    android:layout_marginTop="10dp"
-                    android:layout_toRightOf="@+id/folder"
-                    android:paddingBottom="40dp"
-                    android:text="Photos"
-                    android:textColor="#212121"
-                    android:textSize="16sp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
-                    android:layout_toRightOf="@+id/folder"
-                    android:text="Jan 9,2018"
-                    android:textColor="#757575"
-                    android:textSize="14sp" />Jan 9,2018
-            </RelativeLayout>
-
-            <RelativeLayout
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
                 <ImageView
                     android:id="@+id/folder1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerVertical="true"
                     android:layout_marginLeft="20dp"
-                    android:layout_marginRight="16dp"
+                    android:layout_marginRight="20dp"
                     android:background="@drawable/circle"
                     android:padding="10dp"
-                    android:src="@drawable/ic_folder_white_36dp" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
-                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_folder_white_48dp" />
+                <LinearLayout
+                    android:layout_marginTop="4dp"
                     android:layout_toRightOf="@+id/folder1"
-                    android:paddingBottom="40dp"
-                    android:text="Photos"
-                    android:textColor="#212121"
-                    android:textSize="16sp" />
-
-                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
-                    android:layout_toRightOf="@+id/folder1"
-                    android:text="Jan 9,2018"
-                    android:textColor="#757575"
-                    android:textSize="14sp" />
-            </RelativeLayout>
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/folder1"
+                        android:text="Photos"
+                        android:layout_marginBottom="3dp"
+                        android:textColor="#212121"
+                        android:textSize="18sp" />
 
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/folder4"
+                        android:text="Jan 9,2018"
+                        android:textColor="#757575"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <ImageView
+                    android:layout_margin="20dp"
+                    android:src="@drawable/ic_information_grey600_24dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
             <RelativeLayout
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
                 <ImageView
                     android:id="@+id/folder2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerVertical="true"
                     android:layout_marginLeft="20dp"
-                    android:layout_marginRight="16dp"
+                    android:layout_marginRight="20dp"
                     android:background="@drawable/circle"
                     android:padding="10dp"
-                    android:src="@drawable/ic_folder_white_36dp" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
-                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_folder_white_48dp" />
+                <LinearLayout
+                    android:layout_marginTop="4dp"
                     android:layout_toRightOf="@+id/folder2"
-                    android:paddingBottom="40dp"
-                    android:text="Photos"
-                    android:textColor="#212121"
-                    android:textSize="16sp" />
-
-                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
-                    android:layout_toRightOf="@+id/folder2"
-                    android:text="Jan 9,2018"
-                    android:textColor="#757575"
-                    android:textSize="14sp" />
-            </RelativeLayout>
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/folder2"
+                        android:text="Photos"
+                        android:layout_marginBottom="3dp"
+                        android:textColor="#212121"
+                        android:textSize="18sp" />
 
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/folder4"
+                        android:text="Jan 9,2018"
+                        android:textColor="#757575"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <ImageView
+                    android:layout_margin="20dp"
+                    android:src="@drawable/ic_information_grey600_24dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
             <RelativeLayout
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
                 <ImageView
                     android:id="@+id/folder3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerVertical="true"
                     android:layout_marginLeft="20dp"
-                    android:layout_marginRight="16dp"
+                    android:layout_marginRight="20dp"
                     android:background="@drawable/circle"
                     android:padding="10dp"
-                    android:src="@drawable/ic_folder_white_36dp" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
-                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_folder_white_48dp" />
+                <LinearLayout
+                    android:layout_marginTop="4dp"
                     android:layout_toRightOf="@+id/folder3"
-                    android:paddingBottom="40dp"
-                    android:text="Photos"
-                    android:textColor="#212121"
-                    android:textSize="16sp" />
-
-                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
-                    android:layout_toRightOf="@+id/folder3"
-                    android:text="Jan 9,2018"
-                    android:textColor="#757575"
-                    android:textSize="14sp" />
-            </RelativeLayout>
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/folder3"
+                        android:text="Photos"
+                        android:layout_marginBottom="3dp"
+                        android:textColor="#212121"
+                        android:textSize="18sp" />
 
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/folder4"
+                        android:text="Jan 9,2018"
+                        android:textColor="#757575"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <ImageView
+                    android:layout_margin="20dp"
+                    android:src="@drawable/ic_information_grey600_24dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
             <RelativeLayout
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
                 <ImageView
                     android:id="@+id/folder4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerVertical="true"
                     android:layout_marginLeft="20dp"
-                    android:layout_marginRight="16dp"
+                    android:layout_marginRight="20dp"
                     android:background="@drawable/circle"
                     android:padding="10dp"
-                    android:src="@drawable/ic_folder_white_36dp" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
-                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_folder_white_48dp" />
+                <LinearLayout
+                    android:layout_marginTop="4dp"
                     android:layout_toRightOf="@+id/folder4"
-                    android:paddingBottom="40dp"
-                    android:text="Photos"
-                    android:textColor="#212121"
-                    android:textSize="16sp" />
-
-                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
-                    android:layout_toRightOf="@+id/folder4"
-                    android:text="Jan 9,2018"
-                    android:textColor="#757575"
-                    android:textSize="14sp" />
-            </RelativeLayout>
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/folder1"
+                        android:text="Photos"
+                        android:layout_marginBottom="3dp"
+                        android:textColor="#212121"
+                        android:textSize="18sp" />
 
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/folder4"
+                        android:text="Jan 9,2018"
+                        android:textColor="#757575"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <ImageView
+                    android:layout_margin="20dp"
+                    android:src="@drawable/ic_information_grey600_24dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
             <RelativeLayout
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
                 <ImageView
                     android:id="@+id/folder5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerVertical="true"
                     android:layout_marginLeft="20dp"
-                    android:layout_marginRight="16dp"
+                    android:layout_marginRight="20dp"
                     android:background="@drawable/circle"
                     android:padding="10dp"
-                    android:src="@drawable/ic_folder_white_36dp" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
-                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_folder_white_48dp" />
+                <LinearLayout
+                    android:layout_marginTop="4dp"
                     android:layout_toRightOf="@+id/folder5"
-                    android:paddingBottom="40dp"
-                    android:text="Photos"
-                    android:textColor="#212121"
-                    android:textSize="16sp" />
-
-                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/folder5"
+                        android:text="Photos"
+                        android:layout_marginBottom="3dp"
+                        android:textColor="#212121"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/folder4"
+                        android:text="Jan 9,2018"
+                        android:textColor="#757575"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <ImageView
+                    android:layout_margin="20dp"
+                    android:src="@drawable/ic_information_grey600_24dp"
+                    android:layout_alignParentRight="true"
                     android:layout_centerVertical="true"
-                    android:layout_toRightOf="@+id/folder5"
-                    android:text="Jan 9,2018"
-                    android:textColor="#757575"
-                    android:textSize="14sp" />
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
             </RelativeLayout>
+            <RelativeLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/folder6"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/circle"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_folder_white_48dp" />
+                <LinearLayout
+                    android:layout_marginTop="4dp"
+                    android:layout_toRightOf="@+id/folder6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/folder6"
+                        android:text="Photos"
+                        android:layout_marginBottom="3dp"
+                        android:textColor="#212121"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/folder6"
+                        android:text="Jan 9,2018"
+                        android:textColor="#757575"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <ImageView
+                    android:layout_margin="20dp"
+                    android:src="@drawable/ic_information_grey600_24dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+
 
 
         </LinearLayout>
