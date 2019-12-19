@@ -1,331 +1,387 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
+
         <ImageView
-            android:src="@drawable/gardinermuseum"
-            android:scaleType="centerCrop"
-            android:background="#D6D6D6"
             android:layout_width="415dp"
+            android:layout_height="260dp"
             android:layout_marginBottom="16dp"
-            android:layout_height="260dp" />
+            android:background="#D6D6D6"
+            android:scaleType="centerCrop"
+            android:src="@drawable/gardinermuseum" />
+
         <TextView
-            android:text="Gardiner Museum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginLeft="25dp"
             android:layout_marginBottom="5dp"
+            android:text="Gardiner Museum"
             android:textColor="#212121"
-            android:textSize="24sp"
             android:textFontWeight="400"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:textSize="24sp" />
+
         <RelativeLayout
-            android:layout_marginBottom="5dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp">
+
             <TextView
                 android:id="@+id/text1"
-                android:text="4.3"
-                android:textColor="#EB6E00"
-                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="10dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:text="4.3"
+                android:textColor="#EB6E00"
+                android:textSize="18sp" />
+
             <ImageView
                 android:id="@+id/star1"
-                android:src="@drawable/ic_star_grey600_24dp"
-                android:layout_toRightOf="@+id/text1"
                 android:layout_width="22dp"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/text1"
+                android:src="@drawable/ic_star_grey600_24dp"
+                android:tint="@android:color/holo_green_light" />
+
             <ImageView
                 android:id="@+id/star2"
-                android:src="@drawable/ic_star_grey600_24dp"
-                android:layout_toRightOf="@+id/star1"
                 android:layout_width="22dp"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/star1"
+                android:src="@drawable/ic_star_grey600_24dp"
+                android:tint="@android:color/holo_green_light" />
+
             <ImageView
                 android:id="@+id/star3"
-                android:src="@drawable/ic_star_grey600_24dp"
-                android:layout_toRightOf="@+id/star2"
                 android:layout_width="22dp"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/star2"
+                android:src="@drawable/ic_star_grey600_24dp"
+                android:tint="@android:color/holo_green_light" />
+
             <ImageView
                 android:id="@+id/star4"
-                android:src="@drawable/ic_star_grey600_24dp"
-                android:layout_toRightOf="@+id/star3"
                 android:layout_width="22dp"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/star3"
+                android:src="@drawable/ic_star_grey600_24dp"
+                android:tint="@android:color/holo_green_light" />
+
             <ImageView
                 android:id="@+id/star5"
-                android:src="@drawable/ic_star_half_grey600_24dp"
-                android:layout_toRightOf="@+id/star4"
-                android:layout_marginRight="8dp"
                 android:layout_width="22dp"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:layout_toRightOf="@+id/star4"
+                android:src="@drawable/ic_star_half_grey600_24dp"
+                android:tint="@android:color/holo_green_light" />
+
             <TextView
-                android:text="126 reviews"
-                android:textSize="18sp"
-                android:layout_toRightOf="@+id/star5"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/star5"
+                android:text="126 reviews"
+                android:textSize="18sp" />
         </RelativeLayout>
+
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+
             <TextView
                 android:id="@+id/text2"
-                android:text="Art Museum "
-                android:textSize="18sp"
-                android:layout_marginLeft="25dp"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:text="Art Museum "
+                android:textSize="18sp" />
+
             <TextView
                 android:id="@+id/text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-6dp"
                 android:layout_toRightOf="@+id/text2"
                 android:text="."
-                android:textSize="18sp"
-                android:layout_marginTop="-6dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:textSize="18sp" />
+
             <TextView
                 android:id="@+id/text4"
-                android:text=" $$$ "
-                android:textSize="18sp"
-                android:layout_toRightOf="@+id/text3"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/text3"
+                android:text=" $$$ "
+                android:textSize="18sp" />
+
             <TextView
                 android:id="@+id/text5"
-                android:layout_toRightOf="@+id/text4"
-                android:text=". "
-                android:textSize="18sp"
-                android:layout_marginTop="-6dp"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-6dp"
+                android:layout_toRightOf="@+id/text4"
+                android:text="."
+                android:textSize="18sp" />
+
             <ImageView
                 android:id="@+id/image1"
-                android:src="@drawable/ic_car_grey600_24dp"
-                android:layout_toRightOf="@+id/text5"
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
                 android:layout_centerVertical="true"
-                android:layout_width="36dp"
-                android:layout_height="wrap_content" />
+                android:layout_toRightOf="@+id/text5"
+                android:src="@drawable/ic_car_grey600_36dp" />
+
             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_toRightOf="@+id/image1"
                 android:text="55 min"
-                android:textSize="18sp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:textSize="18sp" />
         </RelativeLayout>
+
         <TextView
-            android:layout_marginTop="15dp"
-            android:layout_marginBottom="15dp"
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="#48757575"/>
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="#48757575" />
+
         <LinearLayout
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="10dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp">
+
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="500"
+                    android:text="OVERVIEW"
                     android:textColor="#4285F4"
-                    android:textSize="18sp"
-                    android:text="OVERVIEW"/>
+                    android:textSize="18sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="500"
+                    android:text="POSTS"
                     android:textColor="#4285F4"
-                    android:textSize="18sp"
-                    android:text="POSTS"/>
+                    android:textSize="18sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="500"
+                    android:text="REVIEWS"
                     android:textColor="#4285F4"
-                    android:textSize="18sp"
-                    android:text="REVIEWS"/>
+                    android:textSize="18sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="500"
+                    android:text="PHOTOS"
                     android:textColor="#4285F4"
-                    android:textSize="18sp"
-                    android:text="PHOTOS"/>
+                    android:textSize="18sp" />
             </LinearLayout>
         </LinearLayout>
+
         <TextView
 
-            android:layout_marginTop="15dp"
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="#DC757575"/>
+            android:layout_marginTop="15dp"
+            android:background="#DC757575" />
+
         <TextView
-            android:layout_marginBottom="15dp"
             android:layout_width="match_parent"
             android:layout_height="3dp"
-            android:background="#5C757575"/>
+            android:layout_marginBottom="15dp"
+            android:background="#5C757575" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
+
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <ImageView
-                    android:layout_marginBottom="5dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_directions_grey600_36dp"/>
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/ic_directions_grey600_36dp" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="500"
+                    android:text="DIRECTIONS"
                     android:textColor="#4285F4"
-                    android:textSize="18sp"
-                    android:text="DIRECTIONS"/>
+                    android:textSize="18sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <ImageView
-                    android:layout_marginBottom="5dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_phone_grey600_36dp"/>
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/ic_phone_grey600_36dp" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="#4285F4"
                     android:layout_weight="500"
-                    android:text="CALL"/>
+                    android:text="CALL"
+                    android:textColor="#4285F4"
+                    android:textSize="18sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <ImageView
-                    android:layout_marginBottom="5dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_star_grey600_36dp"/>
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/ic_star_grey600_36dp" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:text="SAVE"
                     android:textColor="#4285F4"
-                    android:textSize="18sp"
-                    android:text="SAVE"/>
+                    android:textSize="18sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:orientation="vertical">
+
                 <ImageView
-                    android:layout_marginBottom="5dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_link_grey600_36dp"/>
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/ic_link_grey600_36dp" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="18sp"
+                    android:text="WEBSITE"
                     android:textColor="#4285F4"
-                    android:text="WEBSITE"/>
+                    android:textSize="18sp" />
             </LinearLayout>
 
         </LinearLayout>
+
         <TextView
-            android:layout_marginBottom="15dp"
-            android:layout_marginTop="15dp"
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="#48757575"/>
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="#48757575" />
+
         <LinearLayout
-           android:layout_marginLeft="25dp"
-            android:layout_marginRight="25dp"
-            android:layout_marginBottom="5dp"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="5dp">
+
             <TextView
-                android:text="Besides exhibits, this ceramics museum offers classes, lectures &amp; tours, plus a bistro &amp; gift shop."
-                android:textSize="18sp"
-                android:lineHeight="26dp"
-                android:textColor="#212121"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:lineHeight="26dp"
+                android:text="Besides exhibits, this ceramics museum offers classes, lectures &amp; tours, plus a bistro &amp; gift shop."
+                android:textColor="#D5212121"
+                android:textSize="18sp" />
         </LinearLayout>
+
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+
             <TextView
                 android:id="@+id/text6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
                 android:layout_marginLeft="25dp"
                 android:text="Know what features this place has?"
-                android:textSize="16sp"
-                android:textStyle="bold"
-                android:layout_centerVertical="true"
                 android:textColor="#212121"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
             <ImageView
-                android:src="@drawable/ic_chevron_right_grey600_36dp"
-                android:layout_centerVertical="true"
-                android:layout_alignParentRight="true"
-                android:layout_marginRight="20dp"
                 android:layout_width="wrap_content"
-                android:layout_height="30dp" />
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/ic_chevron_right_grey600_36dp" />
         </RelativeLayout>
+
         <LinearLayout
-            android:layout_marginTop="3dp"
-            android:background="#000"
             android:layout_width="match_parent"
-            android:layout_height="55dp"></LinearLayout>
+            android:layout_height="55dp"
+            android:layout_marginTop="3dp"
+            android:background="#000"></LinearLayout>
     </LinearLayout>
 </RelativeLayout>
