@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/greylayout"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:background="#79757575"
+        >
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/writings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toRightOf="@+id/greylayout"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Card title"
+            android:textSize="24sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#212121"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#757575"
+            android:text="Subtitle"
+            android:layout_marginLeft="20dp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/divider"
+        android:layout_toRightOf="@+id/greylayout"
+        android:layout_below="@+id/writings"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#757575"
+        ></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_toRightOf="@+id/greylayout"
+        android:layout_below="@+id/divider"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#0FF"
+            android:text="Action 1"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="30dp"
+            android:textColor="#0FF"
+            android:text="Action 2"
+            />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/greylayout"
+
+
+        android:layout_toRightOf="@+id/greylayout"
+        android:background="#757575"></LinearLayout>
+</RelativeLayout>

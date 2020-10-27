@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    
+    <LinearLayout
+        android:id="@+id/title"
+        android:layout_width="160dp"
+        android:layout_height="190dp"
+        android:background="#0ff"
+        android:layout_margin="15dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Card title"
+            android:layout_gravity="bottom"
+            android:textSize="26dp"
+            android:textColor="#fff"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="18dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/images"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginLeft="15dp"
+        >
+        <ImageView
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:src="@drawable/ic_cards_heart_grey600_36dp"
+            android:layout_marginLeft="30dp"
+            />
+        <ImageView
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:src="@drawable/ic_bookmark_grey600_36dp"
+            android:layout_marginLeft="17dp"
+            />
+        <ImageView
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:src="@drawable/ic_share_variant_grey600_36dp"
+            android:layout_marginLeft="17dp"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_toRightOf="@+id/title"
+        android:layout_width="160dp"
+        android:layout_height="190dp"
+        android:background="#009688"
+        android:layout_margin="20dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Best        Airline"
+            android:layout_gravity="bottom"
+            android:textSize="26dp"
+            android:textColor="#fff"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="18dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_toRightOf="@+id/images"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginLeft="55dp"
+        >
+        <ImageView
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:src="@drawable/ic_cards_heart_grey600_36dp"
+            android:layout_marginLeft="30dp"
+            />
+        <ImageView
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:src="@drawable/ic_bookmark_grey600_36dp"
+            android:layout_marginLeft="17dp"
+            />
+        <ImageView
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:src="@drawable/ic_share_variant_grey600_36dp"
+            android:layout_marginLeft="17dp"
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
