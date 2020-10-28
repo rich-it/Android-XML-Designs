@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginRight="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#00BCD4"
+            android:gravity="bottom"
+            android:padding="20dp"
+            android:text="Card title"
+            android:textColor="#fff"
+            android:textSize="35sp" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:id="@+id/rightImage"
+                android:src="@drawable/ic_share_variant_grey600_36dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="12dp"/>
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:id="@+id/rightImage1"
+                android:src="@drawable/ic_bookmark_grey600_36dp"
+                android:layout_toLeftOf="@+id/rightImage"
+                android:layout_centerVertical="true"
+                android:layout_margin="12dp"/>
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/ic_heart_grey600_36dp"
+                android:layout_toLeftOf="@+id/rightImage1"
+                android:layout_centerVertical="true"
+                android:layout_margin="12dp"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginRight="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#009688"
+            android:gravity="bottom"
+            android:padding="20dp"
+            android:text="Best Airlines"
+            android:textColor="#fff"
+            android:textSize="35sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/rightImages"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="12dp"
+                android:src="@drawable/ic_share_variant_grey600_36dp" />
+
+            <ImageView
+                android:id="@+id/rightImage1s"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_centerVertical="true"
+                android:layout_margin="12dp"
+                android:layout_toLeftOf="@+id/rightImages"
+                android:src="@drawable/ic_bookmark_grey600_36dp" />
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_centerVertical="true"
+                android:layout_margin="12dp"
+                android:layout_toLeftOf="@+id/rightImage1s"
+                android:src="@drawable/ic_heart_grey600_36dp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>
