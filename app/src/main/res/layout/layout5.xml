@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <LinearLayout
+
+        android:id="@+id/box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5E35B1"
+
+        android:orientation="vertical"
+        >
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Card Title"
+        android:layout_marginTop="180dp"
+        android:layout_marginBottom="30dp"
+        android:textAlignment="center"
+        android:layout_marginLeft="25dp"
+        android:textSize="30dp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/box"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="It is an essential sign for an company "
+            android:textSize="20dp"
+            android:padding="12dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/line"
+        android:layout_width="400"
+        android:padding="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/text"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="20dp"
+        android:background="#212121"
+        >
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line"
+        android:layout_marginTop="10dp"
+        >
+        <Button
+            android:id="@+id/button"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="#0ff"
+            android:layout_marginLeft="20dp"
+            android:text="Acton1"
+            android:textSize="28dp"
+            />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="#0ff"
+            android:layout_toRightOf="@+id/button"
+            android:layout_marginLeft="35dp"
+            android:text="Acton1"
+            android:textSize="28dp"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
